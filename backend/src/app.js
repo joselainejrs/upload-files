@@ -10,7 +10,7 @@ app.use(express.json());
 
 // para facilita parte de envio de arquivo
 app.use(express.urlencoded({ extended: true }));
-app.use(morgan('dev'));
+app.use(morgan('dev')); 
 
 app.use(routes);
 

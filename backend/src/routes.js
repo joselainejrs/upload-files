@@ -32,7 +32,10 @@ routes.delete('/uploads/:id', async (req, res) => {
 
     await connections('images')
         .where({ id, id })
-        .delete();
+        .deleteObject({
+            dest: path.resolve(__dirname, '..', '..','tmp', 'uploads'),
+            key: this.key,
+            }).promise();
     
         return res.json()
     
