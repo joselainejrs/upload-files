@@ -1,5 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
+const path = require('path');
 
 // imports
 const routes = require('./routes');
@@ -12,6 +13,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev')); 
 
+
+app.use('/file',
+    express.static(path.resolve(__dirname, '..','tmp', 'uploads'))
+);
 app.use(routes);
 
 module.exports = app;
