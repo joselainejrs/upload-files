@@ -6,12 +6,6 @@ exports.up = function(knex) {
         table.decimal('size').notNullable();
         table.string('key').notNullable();
         table.string('url').notNullable();
-
-        table.pre('save', function(){
-          if(!this.url) {
-            this.url = `${process.env.APP_URL}/files/${this.key}`;
-          }
-        })
     })
   
 };
