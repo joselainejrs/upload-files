@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+
+:root {
+    --color-bar-top: #288F7A;
+    --color-title: #B32B38;
+    --color-description: #17191A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body, #root{
+    height: 100vh;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90vw;
+    /* max-width: 700px; */
+    /* margin: auto; */
+
+}
+
+@media(min-width: 700px){
+    :root{
+        font-size:62.5%;
+    }
+}

@@ -1,0 +1,95 @@
+#page-home{
+    max-width: 100%; 
+    height: 100vh;  
+    background:#288F7A;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#page-home .backgroundimg{
+    background-image: url("../../assets/background.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+
+#page-home #page-container{    
+    color: #fff;
+    margin-top: 9.9rem;
+    margin-right: 9.9rem;
+
+    float: center;
+}
+
+#page-home #page-container .logo-img{
+    width: 100%;
+    margin-bottom: 9.9rem;
+}
+
+#page-home #page-container #page-content{
+    float: right;
+    margin: 6.0rem;
+    
+}
+
+#page-home #page-container #page-content .description{
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5.8rem;
+    text-align: right;
+
+    max-width: 497px ;
+    margin-bottom: 20.0rem;
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#page-home #page-container #page-content .input{
+    border: 1px solid #B32B38;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background-color: #B32B38;
+
+    width: 400px;
+    height: 104px;
+    
+    float: right; 
+    
+}
+
+#page-home #page-container #page-content .input p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 3.6rem;
+    color: #F1EBEB;
+    text-align: center;
+    line-height: 8.6rem;
+}
+
+#page-home #page-container #page-content .link{
+    color: #17191A;
+    max-width: 200px;
+    
+    display: flex;
+
+    line-height: 4.6rem;
+    margin-top: 1.2rem;
+
+    float: right; 
+}
+
+#page-home #page-container #page-content a{
+    color: #17191A; 
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2.4rem;
+
+    text-decoration: none;
+
+    text-align: center;
+}
