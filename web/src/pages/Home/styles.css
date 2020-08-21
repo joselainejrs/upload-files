@@ -46,11 +46,21 @@
 }
 
 input[type="file"] {
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+    position: absolute;
+    right:16rem;
+    z-index: 2;
+
+    width: 400px;
+    height: 104px;
+
+    font-size: 50rem;
 }
 
-#page-home #page-container #page-content .input{
-    border: 1px solid #B32B38;
+form .input{
     border-radius: 8px;
     cursor: pointer;
 
@@ -60,36 +70,33 @@ input[type="file"] {
     height: 104px;
     
     float: right; 
-    
 }
 
-#page-home #page-container #page-content .input p{
+form .input span{
     font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-size: 3.6rem;
     color: #F1EBEB;
     text-align: center;
     line-height: 8.6rem;
+
+    margin: 11rem;
 }
 
-#page-home #page-container #page-content .link{
-    color: #17191A;
-    max-width: 200px;
-    
-    display: flex;
-
-    line-height: 4.6rem;
-    margin-top: 1.2rem;
-
-    float: right; 
-}
 
 #page-home #page-container #page-content a{
     color: #17191A; 
+    display: flex;
+
+    margin-top: 1.2rem;
+    line-height: 4.6rem;
+
     font-family: 'Ropa Sans', sans-serif;
     font-size: 2.4rem;
 
     text-decoration: none;
 
-    text-align: center;
+    float: right; 
+
+    
 }

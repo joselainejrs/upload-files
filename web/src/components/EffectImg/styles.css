@@ -1,0 +1,64 @@
+#box-effect{
+    display: flex;
+    max-width: 910px
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    border: none;
+}
+.avatarImg{
+    width: 220px;
+    height: 229px;
+
+    /* flex: 1;
+    justify-content: space-around; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin:  4rem;    
+
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.icon-select{
+    float: left;
+}
+
+.dropdown-icon{
+    display: none;
+    position: absolute;
+        
+    min-width: 220px;
+    height: 50px;
+    
+    border: none;
+    border-radius: 10px; 
+    background:rgba(230, 235, 234, 0.46);;
+    
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-icon {
+    display: block;
+    color:#fff;
+}
+
+.icon-select:hover{
+    color:#2B806E;
+    /* cursor: pointer; */
+    
+}
+
+.icon-select:active{
+    color:#2B806E;
+    /* cursor: pointer; */
+}
+
+

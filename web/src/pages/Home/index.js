@@ -26,18 +26,20 @@ export default function Home(){
                     
                         <form action="">
                             <div  className="input" >
+                            <span>Insert image</span>                                
                                 <input 
-                                    type="file" 
-                                    placeholder="Insert image"
-                                />
-                                <p>Insert image</p>
+                                     type="file"
+                                     id="avatar" 
+                                     name="avatar"
+                                     accept="image/*"
+                                />  
                             </div>
                         </form>
 
                         <div className="link">
-                            <Link to="/files" className="link-page"> Consult image </Link>
+                            <Link to="/files" className="link-page"> Consult image 
 
-                            <BsArrowRight  size="45" />
+                            <BsArrowRight  size="45" /></Link>
 
                         </div>
                         

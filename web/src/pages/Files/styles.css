@@ -33,7 +33,7 @@
 }
 
 #page-file .content{
-    width: 910px;
+    max-width: 910px;
     height: 100vh;
     background:#fff;
     margin: auto;
@@ -67,31 +67,5 @@
 
 
 
-#page-file .content .avatarImg{
-    width: 220px;
-    height: 229px;
-
-    flex: 1;
-    justify-content: space-around;
-    margin:  4rem;    
-
-    border-radius: 10px;
-
-    transition: all 400ms ease;
-    
-}
-#page-file .content .avatarImg:hover:before{
-    
-    height: 72px;
-    cursor: pointer;
-}
-
-#page-file .content .avatarImg:before{
-    background:rgba(230, 235, 234, 0.46);
-    
-    
-    width: 100%;
-    cursor: pointer;
-}
 
 

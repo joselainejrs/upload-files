@@ -5,12 +5,9 @@ import { Link } from 'react-router-dom';
 import { AiOutlineSetting } from "react-icons/ai";
 import { BsDownload } from "react-icons/bs";
 
-
-
+import EffectImg from   '../../components/EffectImg';
 import arrowIms from '../../assets/icon/arrow.svg'
 import logoImg from '../../assets/logo.svg'
-import avatarImg from '../../assets/avatar.jpeg'
-
 import '../../assets/styles/global.css'
 import './styles.css'
 
@@ -38,11 +35,7 @@ function Files(){
                     </form>
                     <AiOutlineSetting size="50" color="#B32B38" className="icon"/>
                 </div>
-                <button src={avatarImg} className="avatarImg" alt="Avatar"/>
-                <img src={avatarImg} className="avatarImg" alt="Avatar"/>
-                <img src={avatarImg} className="avatarImg" alt="Avatar"/>
-                <img src={avatarImg} className="avatarImg" alt="Avatar"/>
-                <img src={avatarImg} className="avatarImg" alt="Avatar"/>
+               < EffectImg />
             </div>
         </div>
     )
