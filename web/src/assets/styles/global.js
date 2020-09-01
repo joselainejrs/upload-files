@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+import { createGlobalStyle } from 'styled-components';
+
+import 'react-circular-progressbar/dist/styles.css';
 
 
+export default createGlobalStyle`
 
 :root {
     --color-background-primary: #EEFAF7;
-    --color-background-secondary: #288F7A;
     --color-bar-top: #288F7A;
     --color-title: #B32B38;
     --color-description: #17191A;
-    --color-input: #B32B38;
     --color-input-success: #1D6052;
     --color-input-error: #e57878;
     
@@ -23,7 +23,7 @@
 
 html,body, #root{
     height: 100vh;
-    
+    background: #000;
 }
 
 #root{
@@ -44,3 +44,4 @@ html,body, #root{
         font-size:62.5%;
     }
 }
+`;

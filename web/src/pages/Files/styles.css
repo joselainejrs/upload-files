@@ -1,14 +1,14 @@
 #page-file{
     width: 100%; 
     height: 100vh;  
-    background:#EEFAF7;
+    background: var(--color-background-primary);
 
 }
 
 #page-file .bar {
     width: 100%;
     height: 291px;
-    background:#288F7A;
+    background: var(--color-bar-top);
 }
 
 #page-file .bar header{
@@ -25,7 +25,7 @@
     font-family: 'Ropa Sans', sans-serif;
     font-weight: 400;
     font-size: 3rem;
-    line-height: 2rem;
+    line-height: 1rem;
 
     margin-left: 66rem ;
 
@@ -41,7 +41,7 @@
     position: absolute;
     left: 20rem;
     right: 20rem;
-    bottom: -18rem;
+    bottom: -20rem;
 
     border-radius: 10px;
 }
@@ -53,16 +53,42 @@
     
 }
 
+input[type="file"] {
+    /* display: none; */
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+    position: absolute;
+    right:16rem;
+    z-index: 2;
+
+    width: 400px;
+    height: 104px;
+
+    font-size: 50rem;
+}
+
+form .input span{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 3.6rem;
+    color: #F1EBEB;
+    text-align: center;
+    line-height: 8.6rem;
+
+    margin: 11rem;
+}
+
 #page-file .content .box-info p{
     font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-size: 4.8rem;
-    color: #B32B38;
+    color: var(--color-title);
     margin: 4rem
 }
 
 #page-file .content .box-info .icon{
-    margin: 4.5rem  4rem 4rem 3rem;
+    margin: 4rem 3rem;
 }
 
 

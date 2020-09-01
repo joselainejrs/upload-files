@@ -1,7 +1,7 @@
 #page-home{
     max-width: 100%; 
     height: 100vh;  
-    background:#288F7A;
+    background:var(--color-background-secondary);
 
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
 
 #page-home #page-container{    
     color: #fff;
-    margin-top: 9.9rem;
+    margin-top: 4rem;
     margin-right: 9.9rem;
 
     float: center;
@@ -25,70 +25,45 @@
 
 #page-home #page-container .logo-img{
     width: 100%;
-    margin-bottom: 9.9rem;
+    /* margin-bottom: rem; */
 }
 
 #page-home #page-container #page-content{
     float: right;
-    margin: 6.0rem;
+    margin-right: 4rem;
     
 }
 
 #page-home #page-container #page-content .description{
     font-family: 'Ropa Sans', sans-serif;
     font-weight: 400;
-    font-size: 5.8rem;
+    font-size: 7.8rem;
     text-align: right;
 
     max-width: 497px ;
-    margin-bottom: 20.0rem;
+    margin-bottom: 17rem;
     
 }
-
-input[type="file"] {
-    /* display: none; */
-    opacity: 0;
-    filter: alpha(opacity=0);
-
-    position: absolute;
-    right:16rem;
-    z-index: 2;
-
-    width: 400px;
-    height: 104px;
-
-    font-size: 50rem;
-}
-
-form .input{
-    border-radius: 8px;
+.input{
     cursor: pointer;
 
-    background-color: #B32B38;
-
-    width: 400px;
-    height: 104px;
+    background-color: var(--color-input);
+    border-radius: 8px;
     
     float: right; 
-}
+    width: 500px;
+    padding: 1rem;
 
-form .input span{
+
     font-family: 'Dosis', sans-serif;
-    font-weight: 500;
-    font-size: 3.6rem;
-    color: #F1EBEB;
-    text-align: center;
-    line-height: 8.6rem;
-
-    margin: 11rem;
+    
 }
-
 
 #page-home #page-container #page-content a{
-    color: #17191A; 
+    color:var(--color-description); 
     display: flex;
 
-    margin-top: 1.2rem;
+    margin-top: 5rem;
     line-height: 4.6rem;
 
     font-family: 'Ropa Sans', sans-serif;
