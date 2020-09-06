@@ -24,7 +24,8 @@
 }
 
 .icon-select{
-    float: left;
+    float: right;
+    margin-right: 10px;
 }
 
 .dropdown-icon{
@@ -47,18 +48,8 @@
 
 .dropdown:hover .dropdown-icon {
     display: block;
-    color:#fff;
+    color:#2B806E;
 }
 
-.icon-select:hover{
-    color:#2B806E;
-    /* cursor: pointer; */
-    
-}
-
-.icon-select:active{
-    color:#2B806E;
-    /* cursor: pointer; */
-}
 
 

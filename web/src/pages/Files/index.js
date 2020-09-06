@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
+import api from '../../services/api'
 
 import { AiOutlineSetting } from "react-icons/ai";
 
@@ -14,11 +15,7 @@ import { BsDownload } from "react-icons/bs";
 
 
 export default class Files extends Component{
-        constructor(props){
-            this.state ={
-                file: ''
-            }
-        }
+  
 
     render() {
         return(
@@ -43,10 +40,11 @@ export default class Files extends Component{
                                 <BsDownload size="50" color="#B32B38" className="icon" /> 
                             </label>
                             <input 
-                                onChange={this.handleUploadFiles}
+                                onChange={this.handleUpload}
+                                onClick={this.fileChangedHandler}
                                 accept="image/*"
                                 type="file" 
-                                name="" 
+                                name="file" 
                                 id=""
                             />
     
