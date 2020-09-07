@@ -59,9 +59,12 @@ $ npm install sqlite3
 $ npm start 
 ```
 
+![Imagem]()
+
 <h4 align="center">
-Joselaine Romão Soares
+Projeto desenvolvido por: Joselaine Romão Soares
 </h4>
 
-![Imagem]()
+
+
 
