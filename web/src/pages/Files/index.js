@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
-import api from '../../services/api'
-
 import { AiOutlineSetting } from "react-icons/ai";
 
 import EffectImg from   '../../components/EffectImg';
@@ -15,9 +13,11 @@ import { BsDownload } from "react-icons/bs";
 
 
 export default class Files extends Component{
-  
+
 
     render() {
+        // const { uploadedFiles } = this.state;
+
         return(
             <div id="page-file"  className="container">
     
@@ -52,7 +52,7 @@ export default class Files extends Component{
                                        
                         <AiOutlineSetting size="50" color="#B32B38" className="icon"/>
                     </div>
-                   < EffectImg />
+                   < EffectImg/>
                 </div>
             </div>
         )

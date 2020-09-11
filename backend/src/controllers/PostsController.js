@@ -1,5 +1,3 @@
-const fileUpload = require('express-fileupload');
-const { update } = require('../database/connections');
 const connections = require('../database/connections');
 
 

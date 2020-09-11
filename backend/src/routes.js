@@ -8,17 +8,17 @@ const unlink = promisify(fs.unlink);
 const upload = multer(multerConfig);
 
 const connections = require('./database/connections');
-const UploadController = require('./controllers/UploadController');
+const UploadController = require('./controllers/PostsController');
 
-routes.get('/uploads', UploadController.index);
+routes.get('/posts', UploadController.index);
 
 routes.post(
-    '/uploads', 
+    '/posts', 
     upload.single('file'), 
     UploadController.upload);
 
-routes.delete('/uploads/:id', UploadController.delete);
+routes.delete('/posts/:id', UploadController.delete);
 
 
 
-module.exports = routes;
+module.exports = routes;    
