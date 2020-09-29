@@ -1,5 +1,5 @@
 <p align="center">
-  <img  src="" alt="Imagem">
+  <img  src="https://github.com/joselainejrs/upload-files/blob/master/web/src/assets/uploads.png" alt="Imagem">
 </p>
 
 <h4 align="center">
@@ -59,7 +59,7 @@ $ npm install sqlite3
 $ npm start 
 ```
 
-![Imagem]()
+![Imagem](https://github.com/joselainejrs/upload-files/blob/master/web/src/assets/divulga%C3%A7%C3%A3o.png)
 
 <h4 align="center">
 Projeto desenvolvido por: Joselaine Romão Soares
