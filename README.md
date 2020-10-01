@@ -3,7 +3,7 @@
 </p>
 
 <h4 align="center">
-Projeto visa aprimorar meus conhecimentos. Desenvolvendo um sistema de upload de arquivos
+Project aims to improve my knowledge. Developing a file upload system
 </h4>
 
 ## Installation
@@ -62,7 +62,7 @@ $ npm start
 ![Imagem](https://github.com/joselainejrs/upload-files/blob/master/web/src/assets/divulga%C3%A7%C3%A3o.png)
 
 <h4 align="center">
-Projeto desenvolvido por: Joselaine Romão Soares
+Project developed by: Joselaine Romão Soares
 </h4>
 
 
